@@ -1,17 +1,17 @@
 <template>
   <div>
     <swiper :option="swiperOption" class="swiper">
-      <swiper-slide class="slide" style="background-image: url(/image/1.jpg)">
+      <swiper-slide class="slide" style="background-image: url(image/1.jpg)">
         <v-layout fill-height align-center justify-center>
           <div class="slog">박현준</div>
         </v-layout>
       </swiper-slide>
-      <swiper-slide class="slide" style="background-image: url(/image/2.jpg)">
+      <swiper-slide class="slide" style="background-image: url(image/2.jpg)">
         <v-layout fill-height align-center justify-center>
           <div class="slog">입니다</div>
         </v-layout>
       </swiper-slide>
-      <swiper-slide style="background-image: url(/image/3.jpg)"> </swiper-slide>
+      <swiper-slide style="background-image: url(image/3.jpg)"> </swiper-slide>
     </swiper>
 
     <div class="section">
