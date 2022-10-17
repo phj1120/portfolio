@@ -5,11 +5,14 @@ module.exports = defineConfig({
   transpileDependencies: ["vuetify"],
   lintOnSave: false,
   devServer: {
-    proxy: {
-      "/api": {
-        // target: "http://localhost:11201",
-        target: "http://mogakco.parkh.xyz:11201/",
-      },
-    },
-  },
+    proxy: 'http://mogakco.parkh.xyz:11201/'
+  }
+  // devServer: {
+  //   proxy: {
+  //     "/api": {
+  //       // target: "http://localhost:11201",
+  //       target: "http://mogakco.parkh.xyz:11201/",
+  //     },
+  //   },
+  // },
 });
