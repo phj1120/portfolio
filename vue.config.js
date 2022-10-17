@@ -4,9 +4,9 @@ module.exports = defineConfig({
   outputDir: "docs",
   transpileDependencies: ["vuetify"],
   lintOnSave: false,
-  devServer: {
-    proxy: 'http://mogakco.parkh.xyz:11201/'
-  }
+  // devServer: {
+  //   proxy: 'http://mogakco.parkh.xyz:11201/'
+  // }
   // devServer: {
   //   proxy: {
   //     "/api": {
