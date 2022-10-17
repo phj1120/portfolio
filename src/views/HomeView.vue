@@ -95,7 +95,7 @@ export default {
     this.loaded = false
     try {
       await this.axios
-        .get("//mogakco.parkh.xyz:11201/api/users/1")
+        .get("https://mogakco.parkh.xyz/api/users/1")
         .then((result) => {
           this.chartData.labels= result.data.data.total.dateList
           this.chartData.datasets[0].data = result.data.data.total.studyTimeList
