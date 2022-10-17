@@ -1,50 +1,36 @@
 <template>
   <div>
-    <swiper :option="swiperOption" class="swiper">
-      <swiper-slide class="slide" style="background-image: url(image/1.jpg)">
-        <v-layout fill-height align-center justify-center>
-          <div class="slog">박현준</div>
-        </v-layout>
-      </swiper-slide>
-      <swiper-slide class="slide" style="background-image: url(image/2.jpg)">
-        <v-layout fill-height align-center justify-center>
-          <div class="slog">입니다</div>
-        </v-layout>
-      </swiper-slide>
-      <swiper-slide style="background-image: url(image/3.jpg)"> </swiper-slide>
-    </swiper>
-
     <div class="section">
       <div class="header">프로젝트 목록</div>
       <v-layout wrap>
         <v-flex xs4 class="pa-2">
           <v-responsive :aspect-raio="1 / 1">
-            <img src="image/1.jpg" class="image" />
+            <img src="../image/1.jpg" class="image" />
           </v-responsive>
         </v-flex>
         <v-flex xs4 class="pa-2">
           <v-responsive :aspect-raio="1 / 1">
-            <img src="image/2.jpg" class="image" />
+            <img src="../image/2.jpg" class="image" />
           </v-responsive>
         </v-flex>
         <v-flex xs4 class="pa-2">
           <v-responsive :aspect-raio="1 / 1">
-            <img src="image/3.jpg" class="image" />
+            <img src="../image/3.jpg" class="image" />
           </v-responsive>
         </v-flex>
         <v-flex xs4 class="pa-2">
           <v-responsive :aspect-raio="1 / 1">
-            <img src="image/1.jpg" class="image" />
+            <img src="../image/1.jpg" class="image" />
           </v-responsive>
         </v-flex>
         <v-flex xs4 class="pa-2">
           <v-responsive :aspect-raio="1 / 1">
-            <img src="image/2.jpg" class="image" />
+            <img src="../image/2.jpg" class="image" />
           </v-responsive>
         </v-flex>
         <v-flex xs4 class="pa-2">
           <v-responsive :aspect-raio="1 / 1">
-            <img src="image/3.jpg" class="image" />
+            <img src="../image/3.jpg" class="image" />
           </v-responsive>
         </v-flex>
       </v-layout>
