@@ -1,21 +1,25 @@
 <template>
   <div class="page">
-    <p class=""><strong>이메일 | </strong>hyeonj1998@gmail.com</p>
-    <p class=""><strong>연락처 | </strong>010-6694-5331</p>
-    <h1 class=""><mark class="highlight-blue">소개</mark></h1>
+    <h2 ><mark class="highlight-blue">소개</mark></h2>
     <hr />
-    <p class="">안녕하세요. 백엔드 개발자가 되기 위해 공부하고 학습하고 있는 박현준입니다.</p>
-    <p class="">현재 인프런에서 Spring Boot, JPA 강의를 보고, 프로젝트에 적용하며 학습 하고 있습니다.</p>
-    <p class="">어제는 바꿀 수 없지만 내일은 바꿀 수 있다는 생각으로 오늘을 살며, <a href="https://github.com/phj1120">[Github]</a> 와 <a href="https://github.com/phj1120"> </a><a href="https://parkhj.notion.site/2022-">[Notion]</a> 에 꾸준히 기록하고 있습니다.</p>
+    <p ><strong>이메일 | </strong>hyeonj1998@gmail.com</p>
+    <p ><strong>연락처 | </strong>010-6694-5331</p>
+    <hr/>
+    <p >안녕하세요. 백엔드 개발자가 되기 위해 학습하고 있는 박현준입니다.</p>
+    <p >현재 인프런에서 Spring Boot, JPA 강의를 보고, 프로젝트에 적용하며 기술을 익히고 있습니다.</p>
+    <p >어제는 바꿀 수 없지만 내일은 바꿀 수 있다는 생각으로 오늘을 살며, <a href="https://github.com/phj1120">[Github]</a> 와 <a href="https://github.com/phj1120"> </a><a href="https://parkhj.notion.site/2022-">[Notion]</a> 에 꾸준히 기록하고 있습니다.</p>
     <br/>
-    <p class="">필요에 의해 개발하고, 친구들이 사용하는 모습을 보고 뿌듯함과 희열을 느껴,</p>
-    <p class="">단순히 코드를 작성하는 사람이 아닌, 가치있는 비즈니스를 만들어 내는 개발자가 되겠다 결심했습니다.</p>
-    <p class="">그러기 위해 많은 경험을 통해 성장하고, 결국엔 아이템을 찾아 저만의 서비스를 운영하고 싶습니다.</p>
-    <h1 class=""><mark class="highlight-blue">기술</mark></h1>
+    <p >진행한 프로젝트 중 필요에 의해 만들고, 아직까지 사용중인 프로젝트가 있습니다.</p>
+    <p >이 프로젝트를 하며 실제 사용 가능한 서비스를 만든 다는 점에서 재미와 설렘을, 친구들이 사용하는 것을 보며 보람과 희열을 느껴,</p>
+    <p >단순히 코드를 작성하는 사람이 아닌, 가치있는 비즈니스를 만들어 내는 개발자가 되겠다 결심했습니다.</p>
+    <p >그러기 위해 많은 경험을 통해 성장하고, 결국엔 아이템을 찾아 저만의 서비스를 운영하고 싶습니다.</p>
+
+    <br/>
+    <h2 ><mark class="highlight-blue">기술</mark></h2>
     <hr />
     <div class="column-list">
       <div style="width:31.25%" class="column">
-        <h2 class="">프로그래밍 언어</h2>
+        <h3 >프로그래밍 언어</h3>
       </div>
       <div style="width:68.75%" class="column">
         <ul class="bulleted-list">
@@ -31,8 +35,8 @@
     </div>
     <div class="column-list">
       <div style="width:31.25%" class="column">
-        <h2 class="">프레임 워크</h2>
-        <p class="">
+        <h3 >프레임 워크</h3>
+        <p >
         </p>
       </div>
       <div style="width:68.75%" class="column">
@@ -47,30 +51,31 @@
         </ul>
       </div>
     </div>
-    <h1 class=""><mark class="highlight-blue">프로젝트</mark></h1>
-    <hr id="b911bd81-5881-4faa-8694-7182b78544e8" />
+
+    <br/>
+    <h2 ><mark class="highlight-blue"><b>프로젝트</b></mark></h2>
+    <hr/>
     <div class="column-list">
       <div style="width:31.25%" class="column">
-        <h2 class=""><mark class="highlight-blue">해냄 ( 진행 중 )</mark></h2>
-        <p class="">Spring Boot, Spring JPA</p>
-        <p @click="moveProjectDetail('haenaem')" class="">[더보기]</p>
+        <h3 >해냄 ( 진행 중 )</h3>
+        <p >Spring Boot, Spring JPA</p>
+        <!-- <p @click="moveProjectDetail('haenaem')" >[더보기]</p> -->
       </div>
       <div style="width:68.75%" class="column">
-        <p class=""><strong>챌린지 사이트</strong></p>
+        <p ><strong>챌린지 사이트</strong></p>
         <ul class="bulleted-list">
-          <li style="list-style-type:disc">기존에 진행 했던 단순한 사이트가 아닌,
-            실제 비즈니스가 담긴 프로젝트 진행</li>
+          <li style="list-style-type:disc">비즈니스가 담긴 팀 프로젝트 진행</li>
         </ul>
       </div>
     </div>
     <div class="column-list">
       <div style="width:31.25%" class="column">
-        <h2 class="">두잉두잉</h2>
-        <p class="">Spring, Mybatis</p>
-        <p @click="moveProjectDetail('doing')" class="">[더보기]</p>
+        <h3 >두잉두잉</h3>
+        <p >Spring, Mybatis</p>
+        <p @click="moveProjectDetail('doing')" >[더보기]</p>
       </div>
       <div style="width:68.75%" class="column">
-        <p class=""><strong>Todo 사이트</strong></p>
+        <p ><strong>Todo 사이트</strong></p>
         <ul class="bulleted-list">
           <li style="list-style-type:disc">간단한 주제를 선정해 학습에 초점을 두고 프로젝트 진행</li>
         </ul>
@@ -84,12 +89,12 @@
     </div>
     <div class="column-list">
       <div style="width:31.25%" class="column">
-        <h2 class="">모각코</h2>
-        <p class="">go, Spring Boot</p>
-        <p @click="moveProjectDetail('mogakco')" class="">[더보기]</p>
+        <h3 >모각코</h3>
+        <p >go, Spring Boot</p>
+        <p @click="moveProjectDetail('mogakco')" >[더보기]</p>
       </div>
       <div style="width:68.75%" class="column">
-        <p class=""><strong>동아리 스터디 관리 서비스</strong></p>
+        <p ><strong>동아리 스터디 관리 서비스</strong></p>
         <ul class="bulleted-list">
           <li style="list-style-type:disc">
             필요에 의해 개발했고, 친구들이 진짜 사용하는 것을 보고,<br/>
@@ -107,16 +112,18 @@
         </ul>
       </div>
     </div>
-    <h1 class=""><mark class="highlight-blue">자기 개발</mark></h1>
+
+    <br/>
+    <h2 ><mark class="highlight-blue">자기 개발</mark></h2>
     <hr id="7df29d07-6de9-4279-882b-b26120ae5528" />
     <div class="column-list">
       <div style="width:31.25%" class="column">
-        <h2 class="">1일 1 시간</h2>
-        <p class=""><a
+        <h3 >1일 1 시간</h3>
+        <p ><a
             href="https://github.com/phj1120/todaysDev">[더보기]</a></p>
       </div>
       <div style="width:68.75%" class="column">
-        <p class=""><strong>하루 한 시간 개발 공부</strong></p>
+        <p ><strong>하루 한 시간 개발 공부</strong></p>
         <ul class="bulleted-list">
           <li style="list-style-type:disc">열정을 불태우다 지쳐서 멈추기 보다 꾸준히 학습 하기 위해 시작</li>
         </ul>
@@ -127,12 +134,12 @@
     </div>
     <div class="column-list">
       <div style="width:31.25%" class="column">
-        <h2 class="">계획</h2>
+        <h3 >계획</h3>
         <figure class="link-to-page"><a
             href="https://www.notion.so/4e5b1812f2004fdd8248b63f67960185">[더보기]</a></figure>
       </div>
       <div style="width:68.75%" class="column">
-        <p class=""><strong>하루 하루는 성실하게, 인생 전체는 되는 대로</strong></p>
+        <p ><strong>하루 하루는 성실하게, 인생 전체는 되는 대로</strong></p>
         <ul class="bulleted-list">
           <li style="list-style-type:disc">
             하루가 어떻게 흘러가는지 모르고 낭비하며 보내는 것 이 아까워<br />
@@ -143,12 +150,12 @@
     </div>
     <div class="column-list">
       <div style="width:31.25%" class="column">
-        <h2 class="">자동화</h2>
-        <p class=""><a
+        <h3 >자동화</h3>
+        <p ><a
             href="https://github.com/phj1120/parkhTools">[더보기]</a></p>
       </div>
       <div style="width:68.75%" class="column">
-        <p class=""><strong>반복되는 작업 자동화</strong></p>
+        <p ><strong>반복되는 작업 자동화</strong></p>
         <ul class="bulleted-list">
           <li style="list-style-type:disc">
             단순 하지만 반복 되는 일이 있을 때<br />
@@ -161,18 +168,20 @@
         </ul>
       </div>
     </div>
-    <h1 class=""><mark class="highlight-blue">공부</mark></h1>
+
+    <br/>
+    <h2 ><mark class="highlight-blue">공부</mark></h2>
     <hr id="cc6ce73b-fe1c-4c6f-ae5d-f559895a98df" />
     <div class="column-list">
       <div style="width:31.25%" class="column">
-        <h2 class="">강의</h2>
+        <h3 >강의</h3>
       </div>
       <div style="width:68.75%" class="column">
-        <p class=""><strong>패스트 캠퍼스</strong></p>
+        <p ><strong>패스트 캠퍼스</strong></p>
         <ul class="bulleted-list">
           <li style="list-style-type:disc">스프링의 정석</li>
         </ul>
-        <p class=""><strong>인프런</strong></p>
+        <p ><strong>인프런</strong></p>
         <ul class="bulleted-list">
           <li style="list-style-type:disc">스프링 핵심원리 - 기본편</li>
         </ul>
@@ -196,59 +205,43 @@
         </ul>
       </div>
     </div>
-    <h1 class=""><mark class="highlight-blue">학력</mark></h1>
+
+    <br/>
+    <h2 ><mark class="highlight-blue">학력</mark></h2>
     <hr id="36d3616c-8873-40d5-b51e-96483a361731" />
     <div class="column-list">
       <div style="width:31.25%" class="column">
-        <h3 class="">
-          명지전문대학<br />
-          정보통신공학과<br />
-        </h3>
-      </div>
-      <div style="width:68.75%" class="column">
-        <ul class="bulleted-list">
-          <li style="list-style-type:disc">2017.03. ~ 2022.02.</li>
-        </ul>
-        <p class="">
-        </p>
-      </div>
-    </div>
-    <div class="column-list">
-      <div style="width:31.25%" class="column">
-        <h3 class="">
+        <b>
           명지전문대학<br/>
           정보통신공학과<br />
           학사학위과정<br />
-        </h3>
+        </b>
       </div>
       <div style="width:68.75%" class="column">
         <ul class="bulleted-list">
-          <li style="list-style-type:disc">2022.03. ~ </li>
+          <li style="list-style-type:disc">2022.03. ~ (2023. 02 졸업 예정)</li>
         </ul>
-        <ul class="bulleted-list">
-          <li style="list-style-type:disc">2023. 02 졸업 예정</li>
-        </ul>
-        <p class="">
-        </p>
       </div>
     </div>
-    <h1 class=""><mark class="highlight-blue">자격증</mark></h1>
+
+    <br/>
+    <h2 ><mark class="highlight-blue">자격증</mark></h2>
     <hr id="e57d29ea-0e1a-4968-bb5d-30918b02d681" />
     <div class="column-list">
       <div style="width:31.25%" class="column">
-        <h3 class="">SQL 개발자</h3>
+        <h3 >SQL 개발자</h3>
       </div>
       <div style="width:68.75%" class="column">
         <ul class="bulleted-list">
           <li style="list-style-type:disc">2021.12.17. 취득</li>
         </ul>
-        <p class="">
+        <p >
         </p>
       </div>
     </div>
     <div class="column-list">
       <div style="width:31.25%" class="column">
-        <h3 class="">정보처리 기사</h3>
+        <h3 >정보처리 기사</h3>
       </div>
       <div style="width:68.75%" class="column">
         <ul class="bulleted-list">
@@ -256,19 +249,23 @@
         </ul>
       </div>
     </div>
-    <h1 class=""><mark class="highlight-blue">경험</mark></h1>
+
+    <br/>
+    <h2 ><mark class="highlight-blue">경험</mark></h2>
     <hr id="81a83549-d8b4-4fe9-a57e-7979340823da" />
     <div class="column-list">
       <div style="width:31.25%" class="column">
-        <h3 class="">
-          서초구 로봇 코딩<br />
-          칼리지 고급<br />
-          보조 강사<br />
-        </h3>
-        <p class=""><a href="https://github.com/phj1120/seocho">[더보기]</a></p>
+        <p>
+          <b>
+            서초구 로봇 코딩<br />
+            칼리지 고급<br />
+            보조 강사<br />
+          </b>
+        </p>
+        <p ><a href="https://github.com/phj1120/seocho">[더보기]</a></p>
       </div>
       <div style="width:68.75%" class="column">
-        <p class=""><strong>강의 준비 및 보조</strong></p>
+        <p ><strong>강의 준비 및 보조</strong></p>
         <ul class="bulleted-list">
           <li style="list-style-type:disc">매 주 강의 자료 준비하며 새로운 정보를 학습하는 방법 익힘</li>
         </ul>
@@ -282,6 +279,7 @@
     </div>
     <hr/>
   </div>
+ 
 </template>
 
 <script>

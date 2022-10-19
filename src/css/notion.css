@@ -11,10 +11,10 @@
     -webkit-print-color-adjust: exact;
 }
 
-a,
-a.visited {
-    color: inherit;
-    text-decoration: underline;
+a{
+    /* color: inherit; */
+    text-decoration: none;
+    color: black
 }
 
 .pdf-relative-link-path {
@@ -47,11 +47,13 @@ h1 {
 h2 {
     font-size: 1.5rem;
     margin-top: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 h3 {
     font-size: 1.25rem;
     margin-top: 1.25rem;
+    margin-bottom: 1rem;
 }
 
 .source {
