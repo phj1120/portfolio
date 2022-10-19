@@ -1,23 +1,33 @@
 <template>
   <div class="header">
     <v-layout align-center>
-      <div class="logo">박현준의 포트폴리오</div>
-      <v-spacer></v-spacer>
-      <v-btn text>프로젝트1</v-btn>
-      <v-btn text>프로젝트2</v-btn>
-      <v-btn text>프로젝트3</v-btn>
+      <span @click="moveHome()" class="name">박현준</span>
+      <span class="divide-name">|</span>
+      <span class="titleInfo">바꿀 수  있는 것을 바꾸려 하는  박현준입니다.</span>
     </v-layout>
   </div>
 </template>
 
+<script>
+export default {
+  methods: {
+    moveHome() {
+      this.$router.push("/")
+    }
+  }
+}
+</script>
+
 <style scoped>
 .header {
-  padding: 20px;
-  box-shadow: 0 6px 6px #eee;
-}
-
-.header {
-  font-size: 20px;
+  padding: 50px 0px 0px 0px;
+  font-size: 25px;
   font-weight: bold;
+}
+.name{
+  font-size: 30px;
+}
+.divide-name{
+  padding: 0px 20px 0px 20px;
 }
 </style>
