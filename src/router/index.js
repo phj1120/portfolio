@@ -11,19 +11,20 @@ const routes = [
   },
   {
     path: "/projects/doing",
-    component: () =>
-      import("../views/projects/doing.vue"),
+    component: () => import("../views/projects/doing.vue"),
   },
   {
     path: "/projects/haenaem",
-    component: () =>
-      import("../views/projects/haenaem.vue"),
+    component: () => import("../views/projects/haenaem.vue"),
   },
   {
     path: "/projects/mogakco",
-    component: () =>
-      import("../views/projects/mogakco.vue"),
-  }
+    component: () => import("../views/projects/mogakco.vue"),
+  },
+  {
+    path: "/develops/oneDayOneDev",
+    component: () => import("../views/develops/oneDayOneDev.vue"),
+  },
 ];
 
 const router = new VueRouter({
