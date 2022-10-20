@@ -218,6 +218,7 @@
         <h3>강의</h3>
         <p>
           <a
+            class="link"
             href="https://parkhj.notion.site/Inflearn-e8009b7e8fce42d1899ca490f3f032bc"
             >[노션]</a
           >
@@ -364,6 +365,16 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 @import url("../css/notion.css");
+a:link {
+  color: black;
+}
+a:visited {
+  color: black;
+}
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
 </style>

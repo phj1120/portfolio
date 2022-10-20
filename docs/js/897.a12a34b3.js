@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkportfolio"]=self["webpackChunkportfolio"]||[]).push([[897],{7897:function(n,u,l){l.r(u),l.d(u,{default:function(){return i}});var t=function(){var n=this,u=n._self._c;return u("div",[n._v("1일 1 개발")])},r=[],e=l(1001),o={},f=(0,e.Z)(o,t,r,!1,null,null,null),i=f.exports}}]);
-//# sourceMappingURL=897.a12a34b3.js.map

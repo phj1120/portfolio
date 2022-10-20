@@ -15,18 +15,17 @@ export default {
     AppHeader,
     AppFooter,
   },
-  data: () => ({
-  }),
+  data: () => ({}),
 };
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400&display=swap");
 
-.section{
-    margin: auto;
-    max-width: 900px;
-    color: rgb(55, 53, 47);
-    font-family: 'Noto Sans KR', sans-serif;
+.section {
+  margin: auto;
+  max-width: 900px;
+  color: rgb(55, 53, 47);
+  font-family: "Noto Sans KR", sans-serif;
 }
 </style>
