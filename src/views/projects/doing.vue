@@ -90,4 +90,10 @@
 
 <style scoped>
 @import url("../../css/notion.css");
+a {
+  color: black;
+}
+a:hover {
+  text-decoration: underline;
+}
 </style>

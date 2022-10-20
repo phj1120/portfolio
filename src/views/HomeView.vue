@@ -367,14 +367,10 @@ export default {
 
 <style scoped>
 @import url("../css/notion.css");
-a:link {
-  color: black;
-}
-a:visited {
+a {
   color: black;
 }
 a:hover {
-  color: black;
   text-decoration: underline;
 }
 </style>
