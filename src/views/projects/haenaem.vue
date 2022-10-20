@@ -1,5 +1,5 @@
 <template>
     <div>
-        <p>haenaem 미구현</p>
+        <p>haenaem 프로젝트 진행 중</p>
     </div>
 </template>

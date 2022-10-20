@@ -3,7 +3,7 @@
     <div class="page-body">
       <h2><mark class="highlight-blue"><b>모각코</b></mark></h2>
       <hr />
-      <p>동아리 친구들과 각자 하루에 몇 시간씩 스터디 하기로 해, 이를 확인 할 만한 서비스가 필요 했음.</p>
+      <p>동아리 친구들과 각자 하루에 몇 시간씩 스터디 하기로 해, 이를 확인 할 만한 <b>서비스가 필요</b> 했음.</p>
       <p>그러던 중 디스코드 봇을 알게 되었고, 이를 이용해 필요한 서비스를 만들었음.</p>
       <p>새로운 것을 학습 하는 방법을 익히고 싶어서, 처음 들어본 Go 를 이용했고, 공식 문서 위주로 보고 개발 했음.</p>
       <h2><mark class="highlight-blue"><b>사용 기술</b></mark></h2>
@@ -23,8 +23,7 @@
         </li>
       </ul>
       <ul class="bulleted-list">
-        <li style="list-style-type:disc">새로운 것을 배우기 위해서는 원하는 것을 만들라는 말의 의미를 알게 됐음.
-        </li>
+        <li style="list-style-type:disc">새로운 것을 배우기 위해서는 원하는 것을 만들라는 말의 의미를 알게 됐음.</li>
       </ul>
 
       <h2><mark class="highlight-blue"><b>사용 방법</b></mark></h2>
