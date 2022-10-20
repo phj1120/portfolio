@@ -1,8 +1,7 @@
 <template>
     <div class="margin"></div>
 </template>
-<style>
-  @import url("../css/notion.css");
+<style scoped>
   .margin{
     height: 100px;
   }

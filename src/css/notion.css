@@ -4,25 +4,32 @@
   font-weight: bold;
 }
 
-/* cspell:disable-file */
-/* webkit printing magic: print all background colors */
 * {
   box-sizing: border-box;
-  -webkit-print-color-adjust: exact;
-}
-
-a {
-  color: white;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
 }
 
 .pdf-relative-link-path {
   font-size: 80%;
   color: #444;
+}
+
+a {
+    text-decoration: none;
+}
+
+.section {
+    margin: auto;
+    max-width: 900px;
+    color: rgb(55, 53, 47);
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+.link {
+    color: black;
+}
+
+.link:hover {
+    text-decoration: underline;
 }
 
 h1,

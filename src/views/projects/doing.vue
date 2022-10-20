@@ -1,7 +1,7 @@
 <template>
   <div class="page-body">
     <h1>
-      <mark class="highlight-blue">프로젝트 소개</mark>
+      <mark class="highlight-blue">두잉두잉</mark>
     </h1>
     <hr />
     <p>To-Do List 웹 사이트</p>
@@ -78,22 +78,23 @@
       <mark class="highlight-blue">기타</mark>
     </h1>
     <hr />
-    <p><a href="https://github.com/fullgon/DoingDoing">[깃허브]</a></p>
+    <p><a href="https://github.com/fullgon/DoingDoing" class="link">[깃허브]</a></p>
     <p>
       <a
-        href="https://parkhj.notion.site/Doing-Doing-7ea738d095464b0eb9eba6b46195e021"
-        >[노션]</a
+        href="https://parkhj.notion.site/Doing-Doing-7ea738d095464b0eb9eba6b46195e021" class="link">[노션]</a
       >
     </p>
   </div>
 </template>
 
+
 <style scoped>
 @import url("../../css/notion.css");
-a {
-  color: black;
+.link {
+    color: black;
 }
-a:hover {
-  text-decoration: underline;
+
+.link:hover {
+    text-decoration: underline;
 }
 </style>

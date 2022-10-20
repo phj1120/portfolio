@@ -19,7 +19,9 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+/* @import url("./css/notion.css"); */
+
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400&display=swap");
 
 .section {

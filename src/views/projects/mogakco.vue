@@ -63,9 +63,9 @@
 
       <h2><mark class="highlight-blue"><b>기타</b></mark></h2>
       <hr />
-      <p><a href="https://github.com/phj1120/bbaddabot">[깃허브]</a></p>
-      <p><a href="https://mogakco.parkh.today/users/1/">[사이트]</a></p>
-      <p><a href="https://www.notion.so/Discord-Bot-da3f8fe5a214450386461b4e2f7f33e6">[개발 기록]</a></p>
+      <p><a href="https://github.com/phj1120/bbaddabot" class="link">[깃허브]</a></p>
+      <p><a href="https://mogakco.parkh.today/users/1/" class="link">[사이트]</a></p>
+      <p><a href="https://www.notion.so/Discord-Bot-da3f8fe5a214450386461b4e2f7f33e6" class="link">[개발 기록]</a></p>
       <h2><mark class="highlight-blue"><b>사용 기록</b></mark></h2>
       <div v-if="loaded">
         <p>{{totalDate}} 일 중 {{studyDate}} 동안</p>
@@ -192,38 +192,14 @@ export default {
 };
 </script>
 
-<style scoped lang="less">
-.swiper {
-  height: 100vh;
+<style scoped>
+@import url("../../css/notion.css");
 
-  .slide {
-    background-size: cover;
-    background-position: center center;
-
-    .slog {
-      font-size: 60px;
-      font-weight: bold;
-      color: #fff;
-    }
-  }
+.link {
+    color: black;
 }
 
-.section {
-  width: 1190px;
-  margin: 0 auto;
-  padding-top: 40px;
-  padding-bottom: 40px;
-
-  .header {
-    text-align: center;
-    font-size: 40px;
-    font-weight: bold;
-  }
-
-  .image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
+.link:hover {
+    text-decoration: underline;
 }
 </style>

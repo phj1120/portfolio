@@ -12,12 +12,8 @@
     </p>
     <p>
       어제는 바꿀 수 없지만 내일은 바꿀 수 있다는 생각으로 오늘을 살며,
-      <a href="https://github.com/phj1120">[Github]</a> 와
-      <a href="https://github.com/phj1120"> </a
-      ><a
-        href="https://parkhj.notion.site/2022-TIL-ca451e3d083f4ad5a1833ccc91e9386a-"
-        >[Notion]</a
-      >
+      <a href="https://github.com/phj1120" class="link">[Github]</a> 와
+      <a href="https://parkhj.notion.site/2022-TIL-ca451e3d083f4ad5a1833ccc91e9386a-" class="link">[Notion]</a>
       에 꾸준히 기록하고 있습니다.
     </p>
     <br />
@@ -98,7 +94,7 @@
       <div style="width: 31.25%" class="column">
         <h3>두잉두잉</h3>
         <p>Spring, Mybatis</p>
-        <p @click="moveProjectDetail('doing')">[더보기]</p>
+        <p @click="moveProjectDetail('doing')" class="link">[더보기]</p>
       </div>
       <div style="width: 68.75%" class="column">
         <p><strong>Todo 사이트</strong></p>
@@ -122,7 +118,7 @@
       <div style="width: 31.25%" class="column">
         <h3>모각코</h3>
         <p>go, Spring Boot</p>
-        <p @click="moveProjectDetail('mogakco')">[더보기]</p>
+        <p @click="moveProjectDetail('mogakco')" class="link">[더보기]</p>
       </div>
       <div style="width: 68.75%" class="column">
         <p><strong>동아리 스터디 관리 서비스</strong></p>
@@ -153,7 +149,7 @@
     <div class="column-list">
       <div style="width: 31.25%" class="column">
         <h3>1일 1 시간</h3>
-        <p @click="moveDevelopDetail('oneDayOneDev')">[더보기]</p>
+        <p @click="moveDevelopDetail('oneDayOneDev')" class="link">[더보기]</p>
       </div>
       <div style="width: 68.75%" class="column">
         <p><strong>하루 한 시간 개발 공부</strong></p>
@@ -173,9 +169,7 @@
       <div style="width: 31.25%" class="column">
         <h3>계획</h3>
         <figure class="link-to-page">
-          <a href="https://www.notion.so/4e5b1812f2004fdd8248b63f67960185"
-            >[노션]</a
-          >
+          <a href="https://www.notion.so/4e5b1812f2004fdd8248b63f67960185" class="link">[노션]</a>
         </figure>
       </div>
       <div style="width: 68.75%" class="column">
@@ -191,7 +185,7 @@
     <div class="column-list">
       <div style="width: 31.25%" class="column">
         <h3>자동화</h3>
-        <p><a href="https://github.com/phj1120/parkhTools">[깃허브]</a></p>
+        <p><a href="https://github.com/phj1120/parkhTools" class="link">[깃허브]</a></p>
       </div>
       <div style="width: 68.75%" class="column">
         <p><strong>반복되는 작업 자동화</strong></p>
@@ -326,7 +320,7 @@
             보조 강사<br />
           </b>
         </p>
-        <p><a href="https://github.com/phj1120/seocho">[깃허브]</a></p>
+        <p><a href="https://github.com/phj1120/seocho"  class="link">[깃허브]</a></p>
       </div>
       <div style="width: 68.75%" class="column">
         <p><strong>강의 준비 및 보조</strong></p>
@@ -367,10 +361,11 @@ export default {
 
 <style scoped>
 @import url("../css/notion.css");
-a {
-  color: black;
+.link {
+    color: black;
 }
-a:hover {
-  text-decoration: underline;
+
+.link:hover {
+    text-decoration: underline;
 }
 </style>

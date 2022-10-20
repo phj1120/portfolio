@@ -30,6 +30,9 @@ export default {
 .name{
   font-size: 30px;
 }
+.name:hover{
+  text-decoration: underline;
+}
 .divide-name{
   padding: 0px 20px 0px 20px;
 }
